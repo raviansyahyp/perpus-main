@@ -5,13 +5,13 @@
 @section('content')
 
 	<div class="row">
-		<div class="col-lg-6 mb-4">
+		<div class="col-lg-15 mb-15">
 			<img src="{{ $book->photoSrc }}" class="img-fluid rounded">
 		</div>
-		<div class="col-lg-6">
+		<div class="col-lg-15">
 			<div class="card shadow">
 				<div class="card-header py-3">
-					<h2 class="h6 m-0 font-weight-bold text-primary">Data Buku</h2>
+					<h2 class="h6 m-0 font-weight-bold text-success">Data Buku</h2>
 				</div>
 				<div class="card-body">
 					<dl class="row">
@@ -39,7 +39,7 @@
 					</dl>
 				</div>
 				<div class="card-footer">
-					<a href="{{ route('book.edit', $book->id) }}" class="btn btn-primary">Edit</a>
+					<a href="{{ route('book.edit', $book->id) }}" class="btn btn-success">Edit</a>
 					<a href="{{ route('book.index') }}" class="btn btn-secondary">Kembali</a>
 				</div>
 			</div>

@@ -21,7 +21,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button class="btn btn-primary shadow" type="submit">Edit</button>
+                            <button class="btn btn-success shadow" type="submit">Edit</button>
                             <button type="button" class="btn btn-secondary shadow"
                                 wire:click="$set('isOpen', false)">Batal</button>
                         </div>

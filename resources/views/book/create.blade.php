@@ -9,7 +9,7 @@
 		<form action="{{ route('book.store') }}" method="post" enctype="multipart/form-data">
 			@csrf
 			<div class="card-header py-3">
-				<h2 class="h6 m-0 font-weight-bold text-primary">Tambah Buku</h2>
+				<h2 class="h6 m-0 font-weight-bold text-success">Tambah Buku</h2>
 			</div>
 			<div class="card-body">
 				<div class="form-group">
@@ -85,7 +85,7 @@
 				</div>
 			</div>
 			<div class="card-footer">
-				<button class="btn btn-primary shadow" type="submit">Tambah</button>
+				<button class="btn btn-success shadow" type="submit">Tambah</button>
 				<a href="{{ route('book.index') }}" class="btn btn-secondary shadow">Batal</a>
 			</div>
 		</form>

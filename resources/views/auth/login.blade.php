@@ -9,7 +9,7 @@
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-success">
 
     <div class="container">
 
@@ -22,7 +22,8 @@
                     <div class="card-body p-0">
                         <div class="p-5">
                             <div class="text-center">
-                                <h1 class="h4 text-gray-900 mb-4">Selamat Datang</h1>
+                                <h1 class="h4 text-gray-900 mb-4">Selamat Datang di <br> "Perpustakaan"
+                                </h1>
                             </div>
 
                             <livewire:auth.login />

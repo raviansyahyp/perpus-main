@@ -12,7 +12,7 @@
 		@endif
 		<div class="card shadow">
 			<div class="card-header py-3">
-				<h2 class="card-title h6 font-weight-bold text-primary m-0">Data Rak</h2>
+				<h2 class="card-title h6 font-weight-bold text-success m-0">Data Rak</h2>
 			</div>
 			<div class="card-body">
 				<div class="table-responsive">

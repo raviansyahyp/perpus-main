@@ -10,7 +10,7 @@
 			@csrf
 			@method('PUT')
 			<div class="card-header py-3">
-				<h2 class="h6 m-0 font-weight-bold text-primary">Edit Anggota</h2>
+				<h2 class="h6 m-0 font-weight-bold text-success">Edit Anggota</h2>
 			</div>
 			<div class="card-body">
 				<div class="form-group">

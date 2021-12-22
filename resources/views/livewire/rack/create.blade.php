@@ -1,6 +1,6 @@
 <div class="card shadow">
 	<div class="card-header py-3">
-		<h2 class="card-title h6 font-weight-bold text-primary m-0">Tambah Rak</h2>
+		<h2 class="card-title h6 font-weight-bold text-success m-0">Tambah Rak</h2>
 	</div>
 	<div class="card-body">
 		<form wire:submit.prevent="store">
@@ -12,7 +12,7 @@
 					<span class="invalid-feedback">{{ $message }}</span>
 				@enderror
 			</div>
-			<button class="btn btn-primary shadow" type="submit">Tambah</button>
+			<button class="btn btn-success shadow" type="submit">Tambah</button>
 		</form>
 	</div>
 </div>

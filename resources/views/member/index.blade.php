@@ -15,8 +15,8 @@
 
 	<div class="card shadow">
 		<div class="card-header py-2 d-flex justify-content-between align-items-center">
-			<h2 class="h6 m-0 font-weight-bold text-primary">Data Anggota</h2>
-			<a href="{{ route('member.create') }}" class="btn btn-sm btn-primary shadow">Tambah Anggota</a>
+			<h2 class="h6 m-0 font-weight-bold text-success">Data Anggota</h2>
+			<a href="{{ route('member.create') }}" class="btn btn-sm btn-success shadow">Tambah Anggota</a>
 		</div>
 		<div class="card-body">
 			<div class="table-responsive">
